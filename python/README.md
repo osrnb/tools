@@ -40,9 +40,9 @@ python
 ```
 
 ## 脚本说明
-1. constants.py：根据说明修改本脚本中的username, password, workday，log, which_task, place等参数，部分参数有默认值。
-2. rep_daily.py：监控缺失日报，并邮件通知；
-3. auto_rep_daily.py：监控到缺失日报后自动填写日报。
+1. constants.py：根据说明修改本脚本中的username, password, workday, log, which_task, place等参数，部分参数有默认值。
+2. rep_daily.py：监控是否有日报缺失，如有缺失则邮件通知；
+3. auto_rep_daily.py：自动填写缺失日报，自动填写失败则邮件通知。
 
 ## 其他说明
 1. 自动填写日报，只支持一份8小时日报；
